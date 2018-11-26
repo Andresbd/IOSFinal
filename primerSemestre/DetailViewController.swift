@@ -74,7 +74,7 @@ class DetailViewController: UIViewController, WCSessionDelegate {
     }
     
     func setImage(){
-        imagesURL = ((lab! as! [String : Any])["imagen"] as? [String])!
+        imagesURL = ((lab! as! [String : Any])["imagenes"] as? [String])!
         if let url = URL(string: imagesURL![imageIndex]) {
             imageSpinner.startAnimating()
             imageSpinner.isHidden = false

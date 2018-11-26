@@ -34,9 +34,12 @@
 		86AE1C8321815F5A00A3BEDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AE1C8221815F5A00A3BEDB /* DetailViewController.swift */; };
 		E30319A4E4197FBC24521746 /* Pods_iwatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCB3FF3A8F8EB91BD6928BA /* Pods_iwatch.framework */; };
 		F10305801C4B8953DD3E0E01 /* Pods_iwatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68543F81BB0F560238452ECD /* Pods_iwatch_Extension.framework */; };
+		F474DFEE21ABF43A00D642DE /* ProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474DFED21ABF43A00D642DE /* ProjectTableViewController.swift */; };
 		F4794F9821ABF1C700D40164 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4794F9721ABF1C700D40164 /* GoogleService-Info.plist */; };
 		F4794F9A21ABF1F700D40164 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4794F9921ABF1F700D40164 /* Global.swift */; };
 		F4794F9C21ABF22300D40164 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4794F9B21ABF22300D40164 /* LoginViewController.swift */; };
+		F4A3E9A821AC78500063C0DD /* ProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3E9A721AC78500063C0DD /* ProjectDetailViewController.swift */; };
+		F4F4CF7321AC841B0066970F /* ProjectCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F4CF7221AC841B0066970F /* ProjectCreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,9 +123,12 @@
 		BF8A8F2853A670ABCA3C93AD /* Pods-primerSemestre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-primerSemestre.debug.xcconfig"; path = "Pods/Target Support Files/Pods-primerSemestre/Pods-primerSemestre.debug.xcconfig"; sourceTree = "<group>"; };
 		CBCB3FF3A8F8EB91BD6928BA /* Pods_iwatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iwatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF1862F84B31885B5641D85 /* Pods-iwatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwatch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-iwatch Extension/Pods-iwatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		F474DFED21ABF43A00D642DE /* ProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
 		F4794F9721ABF1C700D40164 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4794F9921ABF1F700D40164 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		F4794F9B21ABF22300D40164 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4A3E9A721AC78500063C0DD /* ProjectDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailViewController.swift; sourceTree = "<group>"; };
+		F4F4CF7221AC841B0066970F /* ProjectCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +238,9 @@
 				F4794F9B21ABF22300D40164 /* LoginViewController.swift */,
 				862F6FCF2145B41E00F329BC /* FirstViewController.swift */,
 				862F6FD32145B41E00F329BC /* Main.storyboard */,
+				F4A3E9A721AC78500063C0DD /* ProjectDetailViewController.swift */,
+				F4F4CF7221AC841B0066970F /* ProjectCreateViewController.swift */,
+				F474DFED21ABF43A00D642DE /* ProjectTableViewController.swift */,
 				8624EC6D2182010900332B54 /* ModelViewController.swift */,
 				86AE1C7E21815C7B00A3BEDB /* Media.xcassets */,
 				862F6FD82145B42200F329BC /* LaunchScreen.storyboard */,
@@ -467,6 +476,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				396F338D219E12C7000026CA /* Resnet50.mlmodel in Sources */,
+				F4A3E9A821AC78500063C0DD /* ProjectDetailViewController.swift in Sources */,
+				F4F4CF7321AC841B0066970F /* ProjectCreateViewController.swift in Sources */,
 				861FDD092145BF10002B7053 /* ListaTableViewController.swift in Sources */,
 				6E9AB00821A9E56300BDCCF7 /* DefaultInterfaceController.swift in Sources */,
 				861F880E21823B7C00750EF0 /* VideoViewController.swift in Sources */,
@@ -478,6 +489,7 @@
 				862F29532150034600DCF886 /* SalonesTableViewController.swift in Sources */,
 				864BB06F2198E75900E898F8 /* PortalViewController.swift in Sources */,
 				F4794F9C21ABF22300D40164 /* LoginViewController.swift in Sources */,
+				F474DFEE21ABF43A00D642DE /* ProjectTableViewController.swift in Sources */,
 				862F6FD02145B41E00F329BC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,7 +555,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Debug;
 		};
@@ -564,7 +576,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
@@ -589,7 +601,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Debug;
 		};
@@ -613,7 +625,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
