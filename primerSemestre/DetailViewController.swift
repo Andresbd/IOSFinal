@@ -7,8 +7,25 @@
 //
 
 import UIKit
+import WatchKit
+import WatchConnectivity
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, WCSessionDelegate {
+    
+    func sessionDidBecomeInactive(_ session: WCSession) {
+        
+    }
+    
+    func sessionDidDeactivate(_ session: WCSession) {
+        
+    }
+    
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        
+    }
+    
+    
     
     var lab:Any?
     var id:String?
@@ -20,6 +37,7 @@ class DetailViewController: UIViewController {
     var modelURL:URL?
     var panoURL:String = ""
     var imageIndex = 0
+    var session: WCSession!
 
     @IBOutlet weak var imageSpinner: UIActivityIndicatorView!
     @IBOutlet weak var salon: UILabel!
@@ -32,6 +50,14 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var hora: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if WCSession.isSupported() {
+            session = WCSession.default
+            session.delegate = self as! WCSessionDelegate
+            session.activate()
+            
+            print("Sesion iniciada")
+        }
 
         salon.text = id
         hora.text = horario
@@ -44,6 +70,7 @@ class DetailViewController: UIViewController {
         setVideo()
         setModel()
         setPanorama()
+        
     }
     
     func setImage(){
@@ -81,6 +108,7 @@ class DetailViewController: UIViewController {
     }
     
     func setModel() {
+        
         modelURL = URL(string: ((lab! as! [String : Any])["material"] as? String)!)
         print(modelURL)
         self.modelSpinner.stopAnimating()
@@ -93,6 +121,20 @@ class DetailViewController: UIViewController {
         print(panoURL)
     }
 
+    @IBAction func sedIwatch(_ sender: Any) {
+        
+        sendMessage()
+    }
+    
+    func sendMessage() {
+        
+        print("Mandando Mensaje")
+        
+        session.sendMessage(["message": horario as Any], replyHandler: nil, errorHandler: {
+            error in print("sending to iwatch")
+        })
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.destination is ModelViewController {
