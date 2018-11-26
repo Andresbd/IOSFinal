@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +16,43 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cedetec" translatesAutoresizingMaskIntoConstraints="NO" id="Epq-Pu-ODn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tec" translatesAutoresizingMaskIntoConstraints="NO" id="XFJ-14-dyT">
+                                <rect key="frame" x="112" y="149" width="150" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="new-logo" translatesAutoresizingMaskIntoConstraints="NO" id="KIz-Uz-mz2">
+                                <rect key="frame" x="117" y="369" width="140" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.96470588239999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Epq-Pu-ODn" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="23z-O9-15b"/>
+                            <constraint firstItem="KIz-Uz-mz2" firstAttribute="centerX" secondItem="XFJ-14-dyT" secondAttribute="centerX" id="2VL-It-R4r"/>
+                            <constraint firstItem="KIz-Uz-mz2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="G3u-jH-mSl"/>
+                            <constraint firstItem="Epq-Pu-ODn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Gyf-Z9-nsR"/>
+                            <constraint firstItem="XFJ-14-dyT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="129" id="MUg-nf-yjO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XFJ-14-dyT" secondAttribute="bottom" constant="390" id="QpN-Dv-3Og"/>
+                            <constraint firstItem="Epq-Pu-ODn" firstAttribute="centerX" secondItem="XFJ-14-dyT" secondAttribute="centerX" id="UDf-LI-yUB"/>
+                            <constraint firstItem="XFJ-14-dyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="dAi-HS-BEh"/>
+                            <constraint firstItem="Epq-Pu-ODn" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ehP-MY-zfU"/>
+                            <constraint firstItem="KIz-Uz-mz2" firstAttribute="top" secondItem="XFJ-14-dyT" secondAttribute="bottom" constant="92" id="gMf-H6-2MI"/>
+                            <constraint firstAttribute="trailing" secondItem="Epq-Pu-ODn" secondAttribute="trailing" id="kgd-lb-4Le"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KIz-Uz-mz2" secondAttribute="bottom" constant="170" id="ra7-MD-tVa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cedetec" width="3072" height="2039"/>
+        <image name="new-logo" width="400.69564819335938" height="400.69564819335938"/>
+        <image name="tec" width="300" height="300"/>
+    </resources>
 </document>
