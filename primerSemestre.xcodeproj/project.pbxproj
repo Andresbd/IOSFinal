@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E96419C7FBD7491E66D8868 /* libPods-primerSemestre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C80257795D526AFF083AE0 /* libPods-primerSemestre.a */; };
 		396F338D219E12C7000026CA /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 396F338C219E12C7000026CA /* Resnet50.mlmodel */; };
 		396F338F219E1307000026CA /* MLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F338E219E1307000026CA /* MLViewController.swift */; };
 		6E9AAFE521A9E3D800BDCCF7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9AAFE321A9E3D800BDCCF7 /* Interface.storyboard */; };
@@ -31,6 +32,11 @@
 		864BB06F2198E75900E898F8 /* PortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864BB06E2198E75900E898F8 /* PortalViewController.swift */; };
 		86AE1C7F21815C7B00A3BEDB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AE1C7E21815C7B00A3BEDB /* Media.xcassets */; };
 		86AE1C8321815F5A00A3BEDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AE1C8221815F5A00A3BEDB /* DetailViewController.swift */; };
+		E30319A4E4197FBC24521746 /* Pods_iwatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCB3FF3A8F8EB91BD6928BA /* Pods_iwatch.framework */; };
+		F10305801C4B8953DD3E0E01 /* Pods_iwatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68543F81BB0F560238452ECD /* Pods_iwatch_Extension.framework */; };
+		F4794F9821ABF1C700D40164 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4794F9721ABF1C700D40164 /* GoogleService-Info.plist */; };
+		F4794F9A21ABF1F700D40164 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4794F9921ABF1F700D40164 /* Global.swift */; };
+		F4794F9C21ABF22300D40164 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4794F9B21ABF22300D40164 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +82,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1CD37F780150012B9B76CD4F /* Pods-iwatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwatch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iwatch Extension/Pods-iwatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		396F338C219E12C7000026CA /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		396F338E219E1307000026CA /* MLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLViewController.swift; sourceTree = "<group>"; };
+		6183DD7AA06BB49509B4D231 /* Pods-iwatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iwatch/Pods-iwatch.debug.xcconfig"; sourceTree = "<group>"; };
+		68543F81BB0F560238452ECD /* Pods_iwatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iwatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9AAFE121A9E3D800BDCCF7 /* iwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9AAFE421A9E3D800BDCCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		6E9AAFE621A9E3DF00BDCCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,13 +114,31 @@
 		864BB06E2198E75900E898F8 /* PortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalViewController.swift; sourceTree = "<group>"; };
 		86AE1C7E21815C7B00A3BEDB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		86AE1C8221815F5A00A3BEDB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		96ABD0EA27025E199B115842 /* Pods-primerSemestre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-primerSemestre.release.xcconfig"; path = "Pods/Target Support Files/Pods-primerSemestre/Pods-primerSemestre.release.xcconfig"; sourceTree = "<group>"; };
+		B4C80257795D526AFF083AE0 /* libPods-primerSemestre.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-primerSemestre.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B797AB3CEFA7676DEFB64B6E /* Pods-iwatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-iwatch/Pods-iwatch.release.xcconfig"; sourceTree = "<group>"; };
+		BF8A8F2853A670ABCA3C93AD /* Pods-primerSemestre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-primerSemestre.debug.xcconfig"; path = "Pods/Target Support Files/Pods-primerSemestre/Pods-primerSemestre.debug.xcconfig"; sourceTree = "<group>"; };
+		CBCB3FF3A8F8EB91BD6928BA /* Pods_iwatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iwatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF1862F84B31885B5641D85 /* Pods-iwatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwatch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-iwatch Extension/Pods-iwatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		F4794F9721ABF1C700D40164 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4794F9921ABF1F700D40164 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		F4794F9B21ABF22300D40164 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		647B921BF2E56C64D588E119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30319A4E4197FBC24521746 /* Pods_iwatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E9AAFEA21A9E3DF00BDCCF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10305801C4B8953DD3E0E01 /* Pods_iwatch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +146,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E96419C7FBD7491E66D8868 /* libPods-primerSemestre.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26CED4C9A95959587317ECBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB3FF3A8F8EB91BD6928BA /* Pods_iwatch.framework */,
+				68543F81BB0F560238452ECD /* Pods_iwatch_Extension.framework */,
+				B4C80257795D526AFF083AE0 /* libPods-primerSemestre.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E9AAFE221A9E3D800BDCCF7 /* iwatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +188,19 @@
 			path = "iwatch Extension";
 			sourceTree = "<group>";
 		};
+		77A77167316ABA3056E5FF1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6183DD7AA06BB49509B4D231 /* Pods-iwatch.debug.xcconfig */,
+				B797AB3CEFA7676DEFB64B6E /* Pods-iwatch.release.xcconfig */,
+				1CD37F780150012B9B76CD4F /* Pods-iwatch Extension.debug.xcconfig */,
+				DBF1862F84B31885B5641D85 /* Pods-iwatch Extension.release.xcconfig */,
+				BF8A8F2853A670ABCA3C93AD /* Pods-primerSemestre.debug.xcconfig */,
+				96ABD0EA27025E199B115842 /* Pods-primerSemestre.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		862F6FC12145B41D00F329BC = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +208,8 @@
 				6E9AAFE221A9E3D800BDCCF7 /* iwatch */,
 				6E9AAFF121A9E3DF00BDCCF7 /* iwatch Extension */,
 				862F6FCB2145B41E00F329BC /* Products */,
+				77A77167316ABA3056E5FF1A /* Pods */,
+				26CED4C9A95959587317ECBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,11 +228,14 @@
 			children = (
 				396F338C219E12C7000026CA /* Resnet50.mlmodel */,
 				862F6FCD2145B41E00F329BC /* AppDelegate.swift */,
+				F4794F9921ABF1F700D40164 /* Global.swift */,
+				F4794F9B21ABF22300D40164 /* LoginViewController.swift */,
 				862F6FCF2145B41E00F329BC /* FirstViewController.swift */,
 				862F6FD32145B41E00F329BC /* Main.storyboard */,
 				8624EC6D2182010900332B54 /* ModelViewController.swift */,
 				86AE1C7E21815C7B00A3BEDB /* Media.xcassets */,
 				862F6FD82145B42200F329BC /* LaunchScreen.storyboard */,
+				F4794F9721ABF1C700D40164 /* GoogleService-Info.plist */,
 				862F6FDB2145B42200F329BC /* Info.plist */,
 				861FDD082145BF10002B7053 /* ListaTableViewController.swift */,
 				862F29522150034600DCF886 /* SalonesTableViewController.swift */,
@@ -199,8 +255,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9AB00521A9E3DF00BDCCF7 /* Build configuration list for PBXNativeTarget "iwatch" */;
 			buildPhases = (
+				C97B6784406DD908581DF5F0 /* [CP] Check Pods Manifest.lock */,
 				6E9AAFDF21A9E3D800BDCCF7 /* Resources */,
 				6E9AB00421A9E3DF00BDCCF7 /* Embed App Extensions */,
+				647B921BF2E56C64D588E119 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9AB00321A9E3DF00BDCCF7 /* Build configuration list for PBXNativeTarget "iwatch Extension" */;
 			buildPhases = (
+				2EEE2BDF0B33AC7A5736DF79 /* [CP] Check Pods Manifest.lock */,
 				6E9AAFE921A9E3DF00BDCCF7 /* Sources */,
 				6E9AAFEA21A9E3DF00BDCCF7 /* Frameworks */,
 				6E9AAFEB21A9E3DF00BDCCF7 /* Resources */,
@@ -233,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 862F6FDE2145B42200F329BC /* Build configuration list for PBXNativeTarget "primerSemestre" */;
 			buildPhases = (
+				C745A15A1E2DEAED2552CACD /* [CP] Check Pods Manifest.lock */,
 				862F6FC62145B41D00F329BC /* Sources */,
 				862F6FC72145B41D00F329BC /* Frameworks */,
 				862F6FC82145B41D00F329BC /* Resources */,
@@ -313,12 +373,82 @@
 			files = (
 				8624EC702182045300332B54 /* SceneKit Asset Catalog.scnassets in Resources */,
 				862F6FDA2145B42200F329BC /* LaunchScreen.storyboard in Resources */,
+				F4794F9821ABF1C700D40164 /* GoogleService-Info.plist in Resources */,
 				86AE1C7F21815C7B00A3BEDB /* Media.xcassets in Resources */,
 				862F6FD52145B41E00F329BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EEE2BDF0B33AC7A5736DF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iwatch Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C745A15A1E2DEAED2552CACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-primerSemestre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97B6784406DD908581DF5F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iwatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E9AAFE921A9E3DF00BDCCF7 /* Sources */ = {
@@ -344,8 +474,10 @@
 				8624EC6E2182010900332B54 /* ModelViewController.swift in Sources */,
 				396F338F219E1307000026CA /* MLViewController.swift in Sources */,
 				86AE1C8321815F5A00A3BEDB /* DetailViewController.swift in Sources */,
+				F4794F9A21ABF1F700D40164 /* Global.swift in Sources */,
 				862F29532150034600DCF886 /* SalonesTableViewController.swift in Sources */,
 				864BB06F2198E75900E898F8 /* PortalViewController.swift in Sources */,
+				F4794F9C21ABF22300D40164 /* LoginViewController.swift in Sources */,
 				862F6FD02145B41E00F329BC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,16 +527,17 @@
 /* Begin XCBuildConfiguration section */
 		6E9AAFFF21A9E3DF00BDCCF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6183DD7AA06BB49509B4D231 /* Pods-iwatch.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Y88XZ6556;
+				DEVELOPMENT_TEAM = PS8B359339;
 				IBSC_MODULE = iwatch_Extension;
 				INFOPLIST_FILE = iwatch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.primerSemestre.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = brime.itesm.primerSemestre.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -416,15 +549,16 @@
 		};
 		6E9AB00021A9E3DF00BDCCF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B797AB3CEFA7676DEFB64B6E /* Pods-iwatch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Y88XZ6556;
+				DEVELOPMENT_TEAM = PS8B359339;
 				IBSC_MODULE = iwatch_Extension;
 				INFOPLIST_FILE = iwatch/Info.plist;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.primerSemestre.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = brime.itesm.primerSemestre.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -436,10 +570,11 @@
 		};
 		6E9AB00121A9E3DF00BDCCF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD37F780150012B9B76CD4F /* Pods-iwatch Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Y88XZ6556;
+				DEVELOPMENT_TEAM = PS8B359339;
 				INFOPLIST_FILE = "iwatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +583,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.primerSemestre.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = brime.itesm.primerSemestre.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -460,10 +595,11 @@
 		};
 		6E9AB00221A9E3DF00BDCCF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF1862F84B31885B5641D85 /* Pods-iwatch Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Y88XZ6556;
+				DEVELOPMENT_TEAM = PS8B359339;
 				INFOPLIST_FILE = "iwatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +607,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.primerSemestre.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = brime.itesm.primerSemestre.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -597,10 +733,11 @@
 		};
 		862F6FDF2145B42200F329BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A8F2853A670ABCA3C93AD /* Pods-primerSemestre.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Y88XZ6556;
+				DEVELOPMENT_TEAM = PS8B359339;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = primerSemestre/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -608,7 +745,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.primerSemestre;
+				PRODUCT_BUNDLE_IDENTIFIER = brime.itesm.primerSemestre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,10 +754,11 @@
 		};
 		862F6FE02145B42200F329BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96ABD0EA27025E199B115842 /* Pods-primerSemestre.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Y88XZ6556;
+				DEVELOPMENT_TEAM = PS8B359339;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = primerSemestre/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -628,7 +766,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = itesm.primerSemestre;
+				PRODUCT_BUNDLE_IDENTIFIER = brime.itesm.primerSemestre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

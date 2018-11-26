@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
-
+    
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var currentUserText: UILabel!
@@ -34,7 +34,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         ref.child("users").child(username.text!).observeSingleEvent(of: .value, with: { (snapshot) in
             let value = snapshot.value as? NSDictionary
             let pass = value?["password"] as? String ?? ""
-        
+            
             if pass == self.password.text {
                 Global.sharedManager.user = self.username.text!
                 self.error.isHidden = true
@@ -56,7 +56,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         self.username.delegate = self
         self.password.delegate = self
@@ -69,6 +69,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         if currentUser == "" {
             currentUserText.text = "No active user"
             logout.isEnabled = false
+            proyectos.isHidden = true
         } else {
             currentUserText.text = currentUser
             logout.isEnabled = true
@@ -86,13 +87,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
     }
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

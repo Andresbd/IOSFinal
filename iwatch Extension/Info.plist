@@ -25,7 +25,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>itesm.primerSemestre.watchkitapp</string>
+			<string>brime.itesm.primerSemestre.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
